@@ -24,8 +24,8 @@ from pyrogram.types import Chat
 from pyrogram.types import Message
 from pyrogram.errors import UserAlreadyParticipant
 
-from MusikVcg.services.callsmusic.callsmusic import client as USER
-from MusikVcg.config import SUDO_USERS
+from CrystalMusic.services.callsmusic.callsmusic import client as USER
+from CrystalMusic.config import SUDO_USERS
 
 @Client.on_message(filters.command(["broadcast"]))
 async def broadcast(_, message: Message):
