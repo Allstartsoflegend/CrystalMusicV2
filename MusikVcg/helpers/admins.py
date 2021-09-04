@@ -19,8 +19,8 @@ from typing import List
 
 from pyrogram.types import Chat
 
-from MusikVcg.function.admins import get as gett
-from MusikVcg.function.admins import set
+from CrystalMusic.function.admins import get as gett
+from CrystalMusic.function.admins import set
 
 
 async def get_administrators(chat: Chat) -> List[int]:
