@@ -142,7 +142,7 @@ async def ee(client, message):
       lol = lel.linked_chat.id
       conv = lel.linked_chat
     except:
-      await message.reply("Silahkan hidupkan obrolan suara/vcg nya! Pastikan Channel sudah ditautkan dengan grup")
+      await message.reply("Silahkan hidupkan obrolan suara nya! Pastikan Channel sudah ditautkan dengan grup")
       return
     queue = que.get(lol)
     stats = updated_stats(conv, queue)
@@ -161,7 +161,7 @@ async def settings(client, message):
       lol = lel.linked_chat.id
       conv = lel.linked_chat
     except:
-      await message.reply("Silahkan hidupkan obrolan suara/vcg nya! Pastikan Channel sudah ditautkan dengan grup")
+      await message.reply("Silahkan hidupkan obrolan suara nya! Pastikan Channel sudah ditautkan dengan grup")
       return
     queue = que.get(lol)
     stats = updated_stats(conv, queue)
