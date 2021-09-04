@@ -1,1 +1,1 @@
-worker: python3 -m MusikVcg
+worker: python3 -m CrystalMusic
