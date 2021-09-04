@@ -20,15 +20,15 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import Message
 
-from MusikVcg.config import que
-from MusikVcg.function.admins import set
-from MusikVcg.helpers.channelmusic import get_chat_id
-from MusikVcg.helpers.decorators import authorized_users_only
-from MusikVcg.helpers.decorators import errors
-from MusikVcg.helpers.filters import command
-from MusikVcg.helpers.filters import other_filters
-from MusikVcg.services.callsmusic import callsmusic
-from MusikVcg.services.queues import queues
+from CrystalMusic.config import que
+from CrystalMusic.function.admins import set
+from CrystalMusic.helpers.channelmusic import get_chat_id
+from CrystalMusic.helpers.decorators import authorized_users_only
+from CrystalMusic.helpers.decorators import errors
+from CrystalMusic.helpers.filters import command
+from CrystalMusic.helpers.filters import other_filters
+from CrystalMusic.services.callsmusic import callsmusic
+from CrystalMusic.services.queues import queues
 
 
 @Client.on_message(filters.command("adminreset"))
