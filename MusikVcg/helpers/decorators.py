@@ -20,8 +20,8 @@ from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
 
-from MusikVcg.config import SUDO_USERS
-from MusikVcg.helpers.admins import get_administrators
+from CrystalMusic.config import SUDO_USERS
+from CrystalMusic.helpers.admins import get_administrators
 
 
 def errors(func: Callable) -> Callable:
