@@ -18,11 +18,11 @@
 import requests
 from pyrogram import Client as Bot
 
-from CrystalMusic.config import API_HASH
-from CrystalMusic.config import API_ID
-from CrystalMusic.config import BG_IMAGE
-from CrystalMusic.config import BOT_TOKEN
-from CrystalMusic.services.callsmusic import run
+from MusikVcg.config import API_HASH
+from MusikVcg.config import API_ID
+from MusikVcg.config import BG_IMAGE
+from MusikVcg.config import BOT_TOKEN
+from MusikVcg.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
 file = open("./etc/foreground.png", "wb")
