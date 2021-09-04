@@ -34,7 +34,7 @@ bot = Bot(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins=dict(root="CrystalMusicV2.modules"),
+    plugins=dict(root="MusikVcgV2.modules"),
 )
 
 bot.start()
