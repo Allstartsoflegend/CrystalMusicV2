@@ -38,25 +38,25 @@ from pyrogram.types import Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
 
-from MusikVcg.config import ARQ_API_KEY
-from MusikVcg.config import BOT_NAME as bn
-from MusikVcg.config import DURATION_LIMIT
-from MusikVcg.config import UPDATES_CHANNEL as updateschannel
-from MusikVcg.config import que
-from MusikVcg.function.admins import admins as a
-from MusikVcg.helpers.admins import get_administrators
-from MusikVcg.helpers.channelmusic import get_chat_id
-from MusikVcg.helpers.errors import DurationLimitError
-from MusikVcg.helpers.decorators import errors
-from MusikVcg.helpers.decorators import authorized_users_only
-from MusikVcg.helpers.filters import command
-from MusikVcg.helpers.filters import other_filters
-from MusikVcg.helpers.gets import get_file_name
-from MusikVcg.services.callsmusic import callsmusic
-from MusikVcg.services.callsmusic import client as USER
-from MusikVcg.services.converter.converter import convert
-from MusikVcg.services.downloaders import youtube
-from MusikVcg.services.queues import queues
+from CrystalMusic.config import ARQ_API_KEY
+from CrystalMusic.config import BOT_NAME as bn
+from CrystalMusic.config import DURATION_LIMIT
+from CrystalMusic.config import UPDATES_CHANNEL as updateschannel
+from CrystalMusic.config import que
+from CrystalMusic.function.admins import admins as a
+from CrystalMusic.helpers.admins import get_administrators
+from CrystalMusic.helpers.channelmusic import get_chat_id
+from CrystalMusic.helpers.errors import DurationLimitError
+from CrystalMusic.helpers.decorators import errors
+from CrystalMusic.helpers.decorators import authorized_users_only
+from CrystalMusic.helpers.filters import command
+from CrystalMusic.helpers.filters import other_filters
+from CrystalMusic.helpers.gets import get_file_name
+from CrystalMusic.services.callsmusic import callsmusic
+from CrystalMusic.services.callsmusic import client as USER
+from CrystalMusic.services.converter.converter import convert
+from CrystalMusic.services.downloaders import youtube
+from CrystalMusic.services.queues import queues
 
 aiohttpsession = aiohttp.ClientSession()
 chat_id = None
