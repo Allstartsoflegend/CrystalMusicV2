@@ -33,18 +33,18 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Tambahkan Saya sebagai admin grup Anda terlebih dahulu</b>",
+            "<b>Tambahkan Aku sebagai admin grup Kamu terlebih dahulu</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusikVcg"
+        user.first_name = "CrystalMusicV2"
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "Saya bergabung untuk memainkan musik pada obrolan suara/vcg!")
+        await USER.send_message(message.chat.id, "Aku sudah bergabung digrupmu untuk memainkan musik pada obrolan suara grupmu")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>Assistant bot berhasil bergabung di Group Anda</b>",
@@ -107,18 +107,18 @@ async def addcchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Tambahkan Saya sebagai admin grup Anda terlebih dahulu</b>",
+            "<b>Tambahkan Aku sebagai admin grup Kamu terlebih dahulu</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "MusikVcg"
+        user.first_name = "CrystalMusicV2"
 
     try:
         await USER.join_chat(invitelink)
-        await USER.send_message(message.chat.id, "Saya bergabung untuk memainkan musik pada obrolan suara/vcg!")
+        await USER.send_message(message.chat.id, "Aku sudah bergabung digrupmu untuk memainkan musik pada obrolan suara grupmu!")
     except UserAlreadyParticipant:
         await message.reply_text(
             "<b>Assistant bot berhasil bergabung di Group Anda</b>",
