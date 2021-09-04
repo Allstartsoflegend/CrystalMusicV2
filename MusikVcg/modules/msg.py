@@ -21,15 +21,15 @@ from MusikVcg.config import PROJECT_NAME
 from MusikVcg.config import SUPPORT_GROUP
 from MusikVcg.config import UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 Saya bot musik yang dibuat untuk memutar musik di obrolan suara Grup & Channel Telegram.\n\n✅ Ketik /help bila butuh bantuan."
+      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 Aku bot musik yang dibuat untuk memutar musik di obrolan suara Grup & Channel Telegram.\n\n✅ Ketik /help bila butuh bantuan."
       HELP_MSG = [
         ".",
 f"""
 **Hei 👋 Selamat datang di {PROJECT_NAME}
 
-⚡ {PROJECT_NAME} dapat memutar musik di obrolan suara Grup dan obrolan suara Channel Anda
+🤗💖 {PROJECT_NAME} dapat memutar musik di obrolan suara Grup dan obrolan suara Channel Anda
 
-⚡ Nama Assistant Bot >> @{ASSISTANT_NAME}\n\nKlik tombol dibawah untuk melihat Panduan menggunakan bot**
+🤗💖 Nama Assistant Bot >> @{ASSISTANT_NAME}\n\nKlik tombol dibawah untuk melihat Panduan menggunakan bot**
 """,
 
 f"""
