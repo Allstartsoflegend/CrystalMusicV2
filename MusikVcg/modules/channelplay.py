@@ -34,31 +34,31 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from MusikVcg.modules.play import generate_cover
-from MusikVcg.modules.play import arq
-from MusikVcg.modules.play import cb_admin_check
-from MusikVcg.modules.play import transcode
-from MusikVcg.modules.play import convert_seconds
-from MusikVcg.modules.play import time_to_seconds
-from MusikVcg.modules.play import changeImageSize
-from MusikVcg.config import BOT_NAME as bn
-from MusikVcg.config import DURATION_LIMIT
-from MusikVcg.config import UPDATES_CHANNEL as updateschannel
-from MusikVcg.config import que
-from MusikVcg.function.admins import admins as a
-from MusikVcg.helpers.errors import DurationLimitError
-from MusikVcg.helpers.decorators import errors
-from MusikVcg.helpers.admins import get_administrators
-from MusikVcg.helpers.channelmusic import get_chat_id
-from MusikVcg.helpers.decorators import authorized_users_only
-from MusikVcg.helpers.filters import command
-from MusikVcg.helpers.filters import other_filters
-from MusikVcg.helpers.gets import get_file_name
-from MusikVcg.services.callsmusic import callsmusic
-from MusikVcg.services.callsmusic import client as USER
-from MusikVcg.services.converter.converter import convert
-from MusikVcg.services.downloaders import youtube
-from MusikVcg.services.queues import queues
+from CrystalMusic.modules.play import generate_cover
+from CrystalMusic.modules.play import arq
+from CrystalMusic.modules.play import cb_admin_check
+from CrystalMusic.modules.play import transcode
+from CrystalMusic.modules.play import convert_seconds
+from CrystalMusic.modules.play import time_to_seconds
+from CrystalMusic.modules.play import changeImageSize
+from CrystalMusic.config import BOT_NAME as bn
+from CrystalMusic.config import DURATION_LIMIT
+from CrystalMusic.config import UPDATES_CHANNEL as updateschannel
+from CrystalMusic.config import que
+from CrystalMusic.function.admins import admins as a
+from CrystalMusic.helpers.errors import DurationLimitError
+from CrystalMusic.helpers.decorators import errors
+from CrystalMusic.helpers.admins import get_administrators
+from CrystalMusic.helpers.channelmusic import get_chat_id
+from CrystalMusic.helpers.decorators import authorized_users_only
+from CrystalMusic.helpers.filters import command
+from CrystalMusic.helpers.filters import other_filters
+from CrystalMusic.helpers.gets import get_file_name
+from CrystalMusic.services.callsmusic import callsmusic
+from CrystalMusic.services.callsmusic import client as USER
+from CrystalMusic.services.converter.converter import convert
+from CrystalMusic.services.downloaders import youtube
+from CrystalMusic.services.queues import queues
 
 chat_id = None
 
