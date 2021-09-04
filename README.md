@@ -1,13 +1,12 @@
 <p align="center">
-  <img src="./etc/logo_readme.jpg" alt="MusikVCG logo">
+  <img src="./etc/logo_readme.jpg" alt="Crystal Music V2">
 </p>
 <h1 align="center">
-  <b>MusikVCG V5</b>
+  <b>Crystal Music V2</b>
 </h1>
 
-#### BOT INI SUDAH DIMODIFIKASI KE BAHASA INDONESIA
+#### BOT INI SUDAH DITRANSLATE/DITERJEMAHKAN KE BAHASA INDONESIA
 ### Bot musik yang di buat untuk memainkan musik di grup & channel telegram
-### Contoh bot yg sudah jadi [@AnonMusic_Bot](https://t.me/anonmusic_bot)
 
 <h2> Features 🔥 </h2>
 
@@ -25,31 +24,9 @@
 
 ## 🚀 Deployment
 
-### 💜 Heroku/Railway ⛓️🔫
+### 💜 Heroku ⛓️🍃
 
-• Silahkan pilih mau deploy via apa, kalo ga ngerti bisa tanya [@xxstanme](https://t.me/xxstanme) di telegram
-
-[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Allstartsoflegend/MusikVcgV2/tree/master)
-
-• Klik tombol dibawah untuk mengambil `Pyrogram String Session` :
-
-[![Run on Repl.it](https://repl.it/badge/github/SpEcHiDe/GenerateStringSession)](https://repl.it/@CollinFowel/StringSessionPyrogram#main.py)
-
-### ⚔ Self-hosting (For Devs) 
-```sh
-# Install Git First (apt-instll git)
-$ git clone https://github.com/CollinFowel/MusikVcgV2
-$ cd MusikVcg
-# Upgrade sources
-# Install All Requirements 
-$ pip3 install -r requirements.txt
-# Rename example.env to local.env and fill
-$ npm i -g npm
-# Start Bot 
-$ python3 -m MusikVcg
-```
-
-[Klik Disini untuk melihat tutorial hosting MusikVcg di VPS](https://youtu.be/MdavNbazT7Q)
+[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Allstartsoflegend/CrystalMusicV2/tree/master)
 
 
 ### Daftar Perintah Bot di Grup
@@ -136,6 +113,7 @@ DaisyXMusic is a hardwork of many people. Many contributors and open source proj
 - [Anjana-Ma](https://github.com/Anjana-Ma): Dev
 - [ImJanindu](https://github.com/ImJanindu): Dev
 - [azimazizov9150](https://github.com/azimazizov9150): Contributor
+- [Crystal Music](https://github.com/Allstartsoflegend): Contributor
 
 
 #### Special Credits
