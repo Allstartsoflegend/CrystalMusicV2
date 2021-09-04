@@ -1,5 +1,5 @@
-from MusikVcg.function.admins import admins
-from MusikVcg.function.admins import get
-from MusikVcg.function.admins import set
+from CrystalMusic.function.admins import admins
+from CrystalMusic.function.admins import get
+from CrystalMusic.function.admins import set
 
 __all__ = ["set", "get", "admins"]
