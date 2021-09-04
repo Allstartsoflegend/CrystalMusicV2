@@ -15,11 +15,11 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import os
-from MusikVcg.config import SOURCE_CODE
-from MusikVcg.config import ASSISTANT_NAME
-from MusikVcg.config import PROJECT_NAME
-from MusikVcg.config import SUPPORT_GROUP
-from MusikVcg.config import UPDATES_CHANNEL
+from CrystalMusic.config import SOURCE_CODE
+from CrystalMusic.config import ASSISTANT_NAME
+from CrystalMusic.config import PROJECT_NAME
+from CrystalMusic.config import SUPPORT_GROUP
+from CrystalMusic.config import UPDATES_CHANNEL
 class Messages():
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 Aku bot musik yang dibuat untuk memutar musik di obrolan suara Grup & Channel Telegram.\n\n✅ Ketik /help bila butuh bantuan."
       HELP_MSG = [
