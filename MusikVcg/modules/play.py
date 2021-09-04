@@ -256,13 +256,13 @@ async def hfmm(_, message):
         return
     if len(message.command) != 2:
         await message.reply_text(
-            "Anda dapat memilih perintah berikut `/musicplayer on` dan `/musicplayer off`"
+            "Kamu dapat memilih perintah berikut `/musicplayer on` dan `/musicplayer off`"
         )
         return
     status = message.text.split(None, 1)[1]
     message.chat.id
     if status == "ON" or status == "on" or status == "On":
-        lel = await message.reply("`Processing...`")
+        lel = await message.reply("`Dalam Proses...`")
         if not message.chat.id in DISABLED_GROUPS:
             await lel.edit("Music Player Sudah Diaktifkan Dalam Grup Ini")
             return
@@ -272,7 +272,7 @@ async def hfmm(_, message):
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
-        lel = await message.reply("`Processing...`")
+        lel = await message.reply("`Dalam Proses...`")
         
         if message.chat.id in DISABLED_GROUPS:
             await lel.edit("Music Player Sudah Dinonaktifkan Dalam Grup Ini ")
@@ -283,7 +283,7 @@ async def hfmm(_, message):
         )
     else:
         await message.reply_text(
-            "Anda dapat memilih perintah berikut `/musicplayer on` dan `/musicplayer off`"
+            "Kamu dapat memilih perintah berikut `/musicplayer on` dan `/musicplayer off`"
         )    
         
 
@@ -561,7 +561,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/282e36264a816d872757e.png"
+        thumb_name = "https://telegra.ph/file/35e9ea38e2656ee7ddb28.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Play lagu via file musik"
@@ -1066,7 +1066,7 @@ async def lol_cb(b, cb):
     if cb.from_user.id != useer_id:
         await cb.answer("Anda bukan orang yang meminta untuk memutar lagu !", show_alert=True)
         return
-    await cb.message.edit("Tunggu sebentar ya sayang ❤️🔥❤️🔥")
+    await cb.message.edit("Tunggu sebentar ya sayang 🤗❤️")
     x=int(x)
     try:
         useer_name = cb.message.reply_to_message.from_user.first_name
