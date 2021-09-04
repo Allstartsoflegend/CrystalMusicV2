@@ -35,8 +35,8 @@ from pyrogram.types import Message
 from youtube_search import YoutubeSearch
 from youtubesearchpython import SearchVideos
 
-from MusikVcg.config import DURATION_LIMIT
-from MusikVcg.modules.play import arq
+from CrystalMusic.config import DURATION_LIMIT
+from CrystalMusic.modules.play import arq
 
 
 @Client.on_message(filters.command("song") & ~filters.channel)
